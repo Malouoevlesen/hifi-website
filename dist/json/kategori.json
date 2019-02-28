@@ -1,0 +1,11 @@
+[
+	{
+		"id": 1,
+		"navn": "cd-player"
+	},
+
+	{
+		"id": 2,
+		"navn": "dvd-player"
+	}
+]
