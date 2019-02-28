@@ -7,5 +7,35 @@
 	{
 		"id": 2,
 		"navn": "dvd-player"
+	},
+
+	{
+		"id": 3,
+		"navn": "effektforstaerkere"
+	},
+
+	{
+		"id": 4,
+		"navn": "forforstaerkere"
+	},
+
+	{
+		"id": 5,
+		"navn": "hojtalere"
+	},
+
+	{
+		"id": 6,
+		"navn": "int-forstaerkere"
+	},
+
+	{
+		"id": 7,
+		"navn": "pladespillere"
+	},
+
+	{
+		"id": 8,
+		"navn": "roer-forstaerkere"
 	}
 ]
