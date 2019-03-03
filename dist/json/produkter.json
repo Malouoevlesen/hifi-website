@@ -1,29 +1,38 @@
 [
 
 	{
-		"id": ,
-		"navn": "",
-		"pris": "",
-		"beskrivelse": "",
-		"brand": "",
-		"kategoriID": ""
+		"id": 1,
+		"navn": "Destiny CD",
+		"pris": 500.00,
+		"beskrivelse": "Amazing cd player",
+		"brandID": 1,
+		"kategoriID": 1
 	},
 
 	{
-		"id": ,
-		"navn": "",
-		"pris": "",
-		"beskrivelse": "",
-		"brand": "",
-		"kategoriID": ""
+		"id": 2,
+		"navn": "Classic",
+		"pris": 100.00,
+		"beskrivelse": "Best cd player",
+		"brand": 1,
+		"kategoriID": 1
 	},
 
 	{
-		"id": ,
-		"navn": "",
-		"pris": "",
-		"beskrivelse": "",
-		"brand": "",
-		"kategoriID": ""
+		"id": 3,
+		"navn": "2010S CD",
+		"pris": 150.00,
+		"beskrivelse": "Best sound you will ever get",
+		"brand": 2,
+		"kategoriID": 1
+	},
+
+	{
+		"id": 4,
+		"navn": "D200",
+		"pris": 200.00,
+		"beskrivelse": "Just fantastic",
+		"brand": 3,
+		"kategoriID": 2
 	}
 ]	

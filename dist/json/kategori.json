@@ -37,5 +37,10 @@
 	{
 		"id": 8,
 		"navn": "roer-forstaerkere"
+	},
+
+	{
+		"id": 9,
+		"navn": "tom"
 	}
 ]
