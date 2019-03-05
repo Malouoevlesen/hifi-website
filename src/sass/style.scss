@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content:"";	
+	display:table;
+	clear:both;
+}
+
+body {
+	font-family: "museo-sans", sans-serif;
+	font-style: normal;
+}
+
+img {
+	max-width: 100%;
+	border: 0;
+}
+
+.bar {
+	height: 4em;
+	width:100%;
+	position: relative;
+	padding: 1em 1.8em 0em 0em;
+	background-color: #000000; 
+	
+	&__header {
+		border-bottom: 1px solid #413a27;
+		background: rgba(0,0,0,.6);
+	}
+
+	&__header a, button {
+		float: right;
+		padding: 0em 1em 0em 1em;
+	}
+
+	&__header a {
+		width: 1.2em;
+		height: 1.6em;
+		color: #ffffff;
+	}
+
+	&__navigation {
+		overflow: hidden;
+		text-align: center;
+		padding-top: 1.5em;
+	}
+
+	&__navigation a {
+		color: #ffffff;
+		text-decoration: none;
+		font-size: 0.9em;
+		font-weight: 500;
+		margin-right: 1.8em;
+	}
+
+	&__navigation a.active {
+		color: #a39161;
+	}
+}
+
+.header {
+	height: 756px;
+    background-image: url("../images/page-photos/subwoofer.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: cover;
+	
+	&__logo {
+
+		height: 625px;
+
+		&--cell {
+		vertical-align: middle;
+		height: 100%;
+		width: 100%;
+		text-align: center;
+		padding: 100px 0;
+		}
+
+		&--cell img {
+			max-width: 100%;
+		}
+		
+	}
+
+}
+
+#gallery-holder {
+	position: relative;
+}
+
+#gallery-holder img {
+	display: block;
+}
+
+.arrow {
+	position: absolute;
+	top:50%;
+	transform:translateY(-50%);
+	width: 3.5em;
+
+	&__left {
+		left: 40px;
+	}
+
+	&__right {
+		right: 40px;
+
+	}
+}
+
