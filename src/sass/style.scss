@@ -13,6 +13,7 @@
 body {
 	font-family: "museo-sans", sans-serif;
 	font-style: normal;
+	background: #000000;
 }
 
 img {
@@ -59,6 +60,27 @@ img {
 
 	&__navigation a.active {
 		color: #a39161;
+	}
+
+	&__footer {
+		overflow: hidden;
+    	height: 74px;
+    	background: #a39161;
+	}
+
+	&__footer p {
+		margin-right: 50px;
+		float: left;
+		font-size: 10px;
+		color: #222;
+		line-height: 1.2;
+		font-weight: 700;
+		margin: 20px 50px 0 30px;
+	}
+
+	&__footer a {
+		color: #fff;
+    	text-decoration: underline;
 	}
 }
 
@@ -113,3 +135,98 @@ img {
 	}
 }
 
+.social {
+
+	height: 220px;
+
+	&__box {
+		height: 220px;
+		width: 33.33333333333333%;
+		float: left;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		&--facebook {
+			background-image: url("../images/page-photos/social-1.jpg")
+		}
+
+		&--facebook a {
+			background-image: url("../images/page-photos/facebook-large.png")
+		}
+
+		&--twitter {
+			background-image: url("../images/page-photos/social-2.jpg")
+		}		
+
+		&--twitter a {
+			background-image: url("../images/page-photos/twitter-large.png")
+		}		
+
+		&--blog {
+			background-image: url("../images/page-photos/social-3.jpg")
+		}		
+
+		&--blog a {
+			background-image: url("../images/page-photos/blog-large.png")
+		}		
+	}
+
+	&__box a {
+		background-position: center center;
+		background-repeat: no-repeat;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		height: 220px;
+		background-size: auto 100px;
+		display:block;
+	}	
+
+}
+
+.social:before, .social:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+
+.banner {
+	height: auto;
+    padding: 20px 0;
+
+	&__footer {
+		max-width: 1200px;
+    	margin: 0 auto;
+	}
+
+	&__footer h3 {
+		font-size: 26px;
+		color: #a09167;
+		text-transform: uppercase;
+		margin-bottom: 10px;
+		display: inline-block;
+		padding: 6px 22px;
+		border: 1px solid #fff;
+	}
+
+	&__footer h3 a {
+		text-decoration: none;
+	}
+
+	&__footer p {
+		font-size: 18px;
+		text-transform: uppercase;
+		color: #fff;
+		line-height: 1.2;
+		margin-right: 50px;
+	}
+}
+
+.footer {
+	&__links {
+		margin: 19px auto;
+    	font-size: 14px;
+	}
+}
