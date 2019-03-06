@@ -235,4 +235,12 @@ img {
   margin-right: 5px;
 }
 
+.header-1 {
+  height: 756px;
+  background-image: url("../images/page-photos/banner-speaker");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
