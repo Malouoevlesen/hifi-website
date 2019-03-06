@@ -5,7 +5,7 @@
 }
 
 .clearfix::after{
-	content:"";	
+	content:"";
 	display:table;
 	clear:both;
 }
@@ -21,13 +21,20 @@ img {
 	border: 0;
 }
 
+.img {
+	&__logos {
+		float: left;
+		margin-top: -30px;
+	}
+}
+
 .bar {
 	height: 4em;
 	width:100%;
 	position: relative;
 	padding: 1em 1.8em 0em 0em;
-	background-color: #000000; 
-	
+	background-color: #000000;
+
 	&__header {
 		border-bottom: 1px solid #413a27;
 		background: rgba(0,0,0,.6);
@@ -98,7 +105,7 @@ img {
     background-repeat: no-repeat;
     background-position: center center;
 	background-size: cover;
-	
+
 	&__logo {
 
 		height: 625px;
@@ -114,7 +121,7 @@ img {
 		&--cell img {
 			max-width: 100%;
 		}
-		
+
 	}
 
 }
@@ -147,6 +154,24 @@ img {
 
 	height: 220px;
 
+	&__small {
+		&--facebook {
+			background: url("../images/page-photos/footer-facebook.png") no-repeat center center;
+		}
+
+		&--twitter {
+			background: url("../images/page-photos/footer-twitter.png") no-repeat center center;
+		}
+
+		&--youtube {
+			background: url("../images/page-photos/footer-insta.png") no-repeat center center;
+		}
+
+		&--instagram {
+			background: url("../images/page-photos/footer-insta.png") no-repeat center center;
+		}
+	}
+
 	&__box {
 		height: 220px;
 		width: 33.33333333333333%;
@@ -165,19 +190,19 @@ img {
 
 		&--twitter {
 			background-image: url("../images/page-photos/social-2.jpg")
-		}		
+		}
 
 		&--twitter a {
 			background-image: url("../images/page-photos/twitter-large.png")
-		}		
+		}
 
 		&--blog {
 			background-image: url("../images/page-photos/social-3.jpg")
-		}		
+		}
 
 		&--blog a {
 			background-image: url("../images/page-photos/blog-large.png")
-		}		
+		}
 	}
 
 	&__box a {
@@ -189,7 +214,7 @@ img {
 		height: 220px;
 		background-size: auto 100px;
 		display:block;
-	}	
+	}
 
 }
 
@@ -243,4 +268,17 @@ img {
     	font-size: 14px;
 	}
 
+	&__img {
+		float: right;
+		margin: 20px 30px 0 0;
+	}
+
+	&__img a {
+		display: block;
+		float: left;
+		width: 20px;
+		height: 20px;
+		margin-right: 5px;
+	}
 }
+
