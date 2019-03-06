@@ -38,8 +38,16 @@ img {
 		padding: 0em 1em 0em 1em;
 	}
 
+	&__header button {
+		background-color: #1085da;
+        height: 27px;
+		width: 125px;
+		border-radius: 5px;
+        border: none;
+        color: #FFF;
+	}
+
 	&__header a {
-		width: 1.2em;
 		height: 1.6em;
 		color: #ffffff;
 	}
@@ -193,19 +201,24 @@ img {
 
 
 .banner {
+
 	height: auto;
     padding: 20px 0;
 
 	&__footer {
-		max-width: 1200px;
-    	margin: 0 auto;
+		float: left;
+		width: 28%;
+		height: 190px;
+		padding: 0 40px;
+		text-align: center;
+		margin: 0em 0em 3em 3em;
 	}
 
 	&__footer h3 {
 		font-size: 26px;
 		color: #a09167;
 		text-transform: uppercase;
-		margin-bottom: 10px;
+		margin: 20px 0px 20px 10px;
 		display: inline-block;
 		padding: 6px 22px;
 		border: 1px solid #fff;
@@ -220,7 +233,7 @@ img {
 		text-transform: uppercase;
 		color: #fff;
 		line-height: 1.2;
-		margin-right: 50px;
+		padding: 0em 0em 2em 1em;
 	}
 }
 
@@ -228,5 +241,10 @@ img {
 	&__links {
 		margin: 19px auto;
     	font-size: 14px;
+	}
+
+	&__img {
+		float: right;
+		margin: 20px 30px 0 0;
 	}
 }
