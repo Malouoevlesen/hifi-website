@@ -1,3 +1,5 @@
+@import "standard.css";
+
 * {
 	margin: 0;
 	padding: 0;
@@ -100,11 +102,19 @@ img {
 }
 
 .header {
-	height: 756px;
-    background-image: url("../images/page-photos/subwoofer.jpg");
     background-repeat: no-repeat;
     background-position: center center;
 	background-size: cover;
+
+	&--frontpage {
+		background-image: url("../images/page-photos/subwoofer.jpg");
+		height: 756px;
+	}
+
+	&--brands {
+		background-image: url("../images/page-photos/banner-speaker.jpg");
+		height: 320px;
+	}
 
 	&__logo {
 
@@ -282,10 +292,69 @@ img {
 	}
 }
 
-.header-1 {
-	height: 756px;
-    background-image: url("../images/page-photos/banner-speaker");
-    background-repeat: no-repeat;
-    background-position: center center;
-	background-size: cover;
+.banner__text {
+	float: left;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.wrapper {
+	padding: 30px;
+    max-width: 1560px;
+    margin: 0 auto;
+}
+
+.banner__logo {
+	float: right;
+    width: 12.333333333333334%;
+    margin-top: 20px;
+}
+
+.brands-container {
+	background-color: #ffffff;
+	padding: 2em;
+}
+
+.brands-left {
+	float: left;
+    min-height: 430px;
+    background: url("../images/page-photos/brands-bg-1.jpg") no-repeat left top;
+    background-size: cover;
+    padding: 30px;
+}
+
+.brands-left p {
+	color: #a09167;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+
+.brands-right {
+	float: left;
+    min-height: 430px;
+    background: url("../images/page-photos/brands-bg-2.jpg") no-repeat left top;
+    background-size: cover;
+    padding: 30px;
+}
+
+.brands-right p {
+	color: #fff;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+h1 {
+	font-size: 30px;
+    margin-bottom: 20px;
+    color: #a39161;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.brands-right a {
+	text-decoration: underline;
+    color: #a39161;
+
 }
