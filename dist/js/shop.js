@@ -1,3 +1,5 @@
+/* JSON Products */
+
 function getProducts() {
 	  fetch('json/produkter.json')
 		.then(function(response) {
