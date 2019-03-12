@@ -52,3 +52,25 @@ function renderBrand(brands) {
   }
   brandElem.innerHTML = html;
 }
+
+function getCategories() {
+	fetch('json/kategori.json')
+	  .then(function(response) {
+	  return response.json();
+	})
+	  .then(function(categories) {
+		  console.log(categories);
+		  renderCategory(categories);
+	});
+}
+getCategories();
+
+function renderCategory(categories) {
+	var categoryElem = document.querySelector("#category-list");
+	var html = "";
+	for (var i=0; i < categories.length; i++) {
+		var category = categories[i];
+		html += '<li><a href="">' + category.navn + '</a></li>';
+	}
+	categoryElem.innerHTML = html;
+}
