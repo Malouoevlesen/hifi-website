@@ -16,7 +16,7 @@ function getProducts() {
 }
 getProducts(); // Calls function. 
 
-// New function for new json file.
+// New function for new json file. (made 3 seperate json files)
 
 function getBrands() {
 	fetch('json/brand.json')
