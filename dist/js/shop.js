@@ -1,5 +1,7 @@
 /* JSON Products */
 
+/* Each one has own JSON file */
+
 function getProducts() {
 	fetch('json/produkter.json')
 	  .then(function(response) {
@@ -12,7 +14,9 @@ function getProducts() {
 
 	});
 }
-getProducts();
+getProducts(); // Calls function. 
+
+// New function for new json file.
 
 function getBrands() {
 	fetch('json/brand.json')
@@ -26,6 +30,7 @@ function getBrands() {
 }
 getBrands();
 
+// Selects the id in the html. 
 
 function renderFunctionBar(products) {
   var elem = document.querySelector("#item-count");
@@ -36,11 +41,12 @@ function renderFunctionBar(products) {
 function renderProduct(products) {
   var productsElem = document.querySelector(".products");
   var html = "";
-  for (var i=0; i < products.length; i++) {
+  for (var i=0; i < products.length; i++) { // Loop to repeat the process. 
 	  var product = products[i];
 	  html += '<div class="product"><img src="' + product.image + '"><span class="product-title"><a href="">' + product.navn + ' </a></span><div class="clearfix"></div><span class="product-price">' + product.pris + '</span><div class="clearfix"></div><button>ADD TO CART</button></div>';
-  }
-  productsElem.innerHTML = html;
+	} // Html plus string concat. 
+	
+  productsElem.innerHTML = html; // Writes it on the html. 
 }
 
 function renderBrand(brands) {
