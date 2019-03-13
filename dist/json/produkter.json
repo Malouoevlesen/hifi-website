@@ -7,7 +7,7 @@
 		"beskrivelse": "Amazing cd player",
 		"brandID": 1,
 		"kategoriID": 1,
-		"image": "images/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
+		"image": "images/Produktbilleder/forforstaerkere/Project_prebox.jpg"
 	},
 
 	{
@@ -17,7 +17,7 @@
 		"beskrivelse": "Best cd player",
 		"brand": 1,
 		"kategoriID": 1,
-		"image": "images/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
+		"image": "images/Produktbilleder/forforstaerkere/Creek_OBH_22_Passive_Preamp.jpg"
 	},
 
 	{
@@ -27,7 +27,7 @@
 		"beskrivelse": "Best sound you will ever get",
 		"brand": 2,
 		"kategoriID": 1,
-		"image": "images/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
+		"image": "images/Produktbilleder/forforstaerkere/parasound_halop3.jpg"
 	},
 
 	{
@@ -37,6 +37,6 @@
 		"beskrivelse": "Just fantastic",
 		"brand": 3,
 		"kategoriID": 2,
-		"image": "images/Produktbilleder/cd_afspillere/creek_Destiny_CD.jpg"
+		"image": "images/Produktbilleder/forforstaerkere/parasound_classic7100.jpg"
 	}
 ]	
